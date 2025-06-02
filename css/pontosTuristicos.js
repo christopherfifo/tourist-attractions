@@ -47,5 +47,6 @@ export const pontosTuristicosStyles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#333',
     marginBottom: 5
-  }
+  },
+  
 });

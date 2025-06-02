@@ -169,7 +169,7 @@ const Home = ({ navigation }) => {
           <Text style={carrosselStyles.faithDescription}>
             Em meio à agitação da metrópole, encontre o seu oásis de paz. Esta seção é um convite à reflexão e ao encontro com o sagrado.
           </Text>
-          <Text style={styles.info}>
+          <Text style={styles.inf}>
             "Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna." (João 3:16)
           </Text>
           <TouchableOpacity

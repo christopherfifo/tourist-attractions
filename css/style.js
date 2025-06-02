@@ -43,8 +43,12 @@ export const styles = StyleSheet.create({
     color: "#888",
     lineHeight: 20,
   },
-
-
+    inf: {
+    fontSize: 14,
+    color: "#888",
+    lineHeight: 20,
+    marginBottom: 15,
+  },
   header: {
     alignItems: "center",
     padding: 20,

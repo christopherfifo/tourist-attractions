@@ -1,10 +1,11 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Icon from "react-native-vector-icons/Ionicons";
+import FontAwesome5 from "react-native-vector-icons/FontAwesome5"; // <- Adicionado
 
 import Home from "./janelas/home";
-import PontosTuristicos from "./janelas/pontosTuristicos"; // Crie esse componente!
-import Livro from "./janelas/livro"; // Crie esse componente!
+import PontosTuristicos from "./janelas/pontosTuristicos";
+import Igrejas from "./janelas/igrejas";
 
 const Tab = createBottomTabNavigator();
 
@@ -40,12 +41,12 @@ export default function App() {
           }}
         />
         <Tab.Screen
-          name="Livro"
-          component={Livro}
+          name="Igrejas"
+          component={Igrejas}
           options={{
-            tabBarLabel: "Livro",
+            tabBarLabel: "Igrejas",
             tabBarIcon: ({ color, size }) => (
-              <Icon name="book-outline" color={color} size={28} />
+              <FontAwesome5 name="church" color={color} size={24} />
             ),
           }}
         />
