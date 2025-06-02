@@ -48,5 +48,61 @@ export const pontosTuristicosStyles = StyleSheet.create({
     color: '#333',
     marginBottom: 5
   },
+  containerDetalhe: {
+    flex: 1,
+    backgroundColor: '#fff',
+    paddingHorizontal: 20,
+    paddingBottom: 80, 
+},
+botaoVoltarContainer: {
+    marginTop: 40,
+    marginBottom: 20,
+    alignSelf: 'flex-start',
+},
+voltarTexto: {
+    fontSize: 16,
+    color: '#3498db',
+    fontWeight: '500',
+},
+detalheTitulo: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    marginBottom: 20,
+    color: '#2c3e50',
+    textAlign: 'center',
+},
+detalheImagem: {
+    width: '100%',
+    height: 200,
+    borderRadius: 10,
+    marginBottom: 25,
+    resizeMode: 'cover',
+},
+detalheDescricao: {
+    fontSize: 16,
+    lineHeight: 24,
+    color: '#34495e',
+    marginBottom: 25,
+    textAlign: 'justify',
+},
+detalheImagemAdicional: {
+    width: '100%',
+    height: 200,
+    borderRadius: 10,
+    marginBottom: 25,
+    resizeMode: 'cover',
+},
+detalheEnderecoTitulo: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#2c3e50',
+    marginBottom: 8,
+},
+detalheEnderecoTexto: {
+    fontSize: 16,
+    color: '#7f8c8d',
+    marginBottom: 40,
+    lineHeight: 22,
+},
   
 });
