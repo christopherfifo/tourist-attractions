@@ -1,7 +1,7 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Icon from "react-native-vector-icons/Ionicons";
-import FontAwesome5 from "react-native-vector-icons/FontAwesome5"; // <- Adicionado
+import FontAwesome5 from "react-native-vector-icons/FontAwesome5"; 
 
 import Home from "./janelas/home";
 import PontosTuristicos from "./janelas/pontosTuristicos";
