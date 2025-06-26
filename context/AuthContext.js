@@ -1,5 +1,6 @@
 import React, { createContext, useState, useContext } from 'react';
 
+<<<<<<< HEAD
 // 1. Cria o Contexto
 const AuthContext = createContext();
 
@@ -8,11 +9,25 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null); // null = deslogado
 
   // Função de login (simulada)
+=======
+
+const AuthContext = createContext();
+
+
+export const AuthProvider = ({ children }) => {
+  const [user, setUser] = useState(null); 
+
+ 
+>>>>>>> 2aa0ad483f398d29fd48ecbb6643017383e3f51c
   const login = () => {
     setUser({ name: 'Usuário Logado' });
   };
 
+<<<<<<< HEAD
   // Função de logout
+=======
+ 
+>>>>>>> 2aa0ad483f398d29fd48ecbb6643017383e3f51c
   const logout = () => {
     setUser(null);
   };
@@ -24,7 +39,10 @@ export const AuthProvider = ({ children }) => {
   );
 };
 
+<<<<<<< HEAD
 // 3. Hook customizado para facilitar o uso
+=======
+>>>>>>> 2aa0ad483f398d29fd48ecbb6643017383e3f51c
 export const useAuth = () => {
   return useContext(AuthContext);
 };
